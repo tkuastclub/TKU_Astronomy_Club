@@ -136,6 +136,39 @@ h3{font-size:clamp(1.3rem,2.2vw,2.6rem);
   max-width:650px;
   margin-bottom: 35px;}
 
+.cal-grid{display:grid;
+  grid-template-columns:1fr 1fr;gap:30px;
+  margin-top:30px}
+
+.cal{
+  min-height:200px;
+  border-radius:22px;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  background:
+    radial-gradient(circle at 70% 25%,rgba(255,255,255,.8) 0 1px,transparent 2px),
+    radial-gradient(circle at 30% 55%,rgba(255,255,255,.6) 0 1px,transparent 2px),
+    linear-gradient(135deg,#6c6d73,#14054f 55%,#41454b);
+  background-size:auto,auto,cover;
+}
+
+.cal img{
+  width:100%;
+  height:220px;
+  object-fit:cover;
+  display:block;
+  border-radius:8px;
+}
+
+.cal span{
+  display:block;
+  margin-top:auto;
+  padding-top:15px;
+  font-weight:700;
+  color:#fff;
+  text-shadow:none;
+}
 .team {
   margin-top: 25px;
   display: flex;
@@ -241,7 +274,6 @@ h3{font-size:clamp(1.3rem,2.2vw,2.6rem);
   display:block;
   margin-top:auto;
   padding-top:15px;
-
   font-weight:700;
   color:#fff;
   text-shadow:none;
@@ -464,6 +496,9 @@ section{padding: 70px 22px;}
 <section id="activities">
   <div class="kicker">02 / Club activities</div>
   <h3>本學期活動！</h3>
+  <div class="cal">
+    <img src="images/11zon_cropped.png" alt="蛋捲廣場觀星">
+    <span>🔭 課後觀星｜與夜空打聲招呼</span></div>
   <div class="cards">
     <div class="card featured">
     <h3>‼️🌟星趴 Star Party🌟‼️</h3><p>大家每年最期待的Star Party星趴🤩🥳<br>今年在鹿野高台盛大舉行！！！<br>全國的天文社齊聚一堂！！<br>
@@ -512,7 +547,7 @@ section{padding: 70px 22px;}
   <div class="kicker">05 / FAQ</div>
   <h2>新生常見問題！</h2>
   <div class="faq">
-    <details><summary>社課時間什麼時候</summary><p>每周二晚上19:00-21:00！</p></details>
+    <details><summary>社課時間什麼時候</summary><p>每周二晚上19:00開始！</p></details>
     <details><summary>社費要多少錢？</summary><p>一個學期450，一學年800！</p></details>
     <details><summary>完全不懂天文，可以加入嗎？</summary><p>當然可以！<br>不管你是純新手還是資深天文咖，我們都大歡迎！</p></details>
     <details><summary>需要自己買望遠鏡嗎？</summary><p>不用！社團活動會有相關器材可以使用！<br>佛心社團🙌佛心社團🙌</p></details>
@@ -551,7 +586,7 @@ section{padding: 70px 22px;}
   <a class="btn club-btn" href="https://youtu.be/dQw4w9WgXcQ?si=IaWz2vMjy9_995py" target="_blank">🎁神祕小禮物</a>
 </section>
 
-<footer>© 淡江天文社 TKU Astronomy Club | 本頁最後更新：2026-09-09<br>
+<footer>© 淡江天文社 TKU Astronomy Club | 本頁最後更新：2026-09-15<br>
 本網站由淡江天文社第2屆創建，第2屆幹部群維護</footer>
 </body>
 </html>
